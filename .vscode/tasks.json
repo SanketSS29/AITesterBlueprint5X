@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Check Excel automation availability",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"try { $excel = New-Object -ComObject Excel.Application; Write-Output ('Excel COM available, version ' + $excel.Version); $excel.Quit(); [void][Runtime.InteropServices.Marshal]::ReleaseComObject($excel) } catch { Write-Output ('Excel COM unavailable: ' + $_.Exception.Message); exit 1 }"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

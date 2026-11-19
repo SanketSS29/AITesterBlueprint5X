@@ -1,0 +1,2 @@
+Short Summary:
+I am working right now on O360 Solutions, which is a SAAS product. Here, we do A/B testing, Integration testing, functional testing, and this overall company basically performs Integration testing for the 2 systems for example Retail Express (REX) & Shopify. Our task mostly is that you are basically present. This company has 30 employees, and our main target is to do Integration testing, provide certain features, and everything in detail. 
